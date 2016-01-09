@@ -106,6 +106,7 @@ public class Servlet extends HttpServlet {
             out.println("<title>Servlet BackendServlet</title>");
             out.println("</head>");
             out.println("<body>");
+            out.println("<h1>YOU SHALL PASS</h1");
             out.println("<h1>Servlet BackendServlet at " + request.getContextPath() + "</h1>");
             out.println("<p>Usuario : " + Usuario + "</p>");
             out.println("Pass : " + Pass + "</p>");
